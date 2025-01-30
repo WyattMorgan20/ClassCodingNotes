@@ -1,0 +1,80 @@
+Fantasy
+The Hobbit
+12.99
+Harry Potter and the Sorcerer's Stone
+15.50
+The Name of the Wind
+17.99
+Mistborn: The Final Empire
+13.45
+@@@
+Science Fiction
+Dune
+18.75
+Ender's Game
+14.25
+The Expanse: Leviathan Wakes
+16.50
+Neuromancer
+13.75
+@@@
+Mystery
+The Girl with the Dragon Tattoo
+13.50
+Gone Girl
+10.99
+The Silent Patient
+14.30
+Sherlock Holmes: The Complete Novels and Stories
+25.50
+@@@
+Non-Fiction
+Sapiens: A Brief History of Humankind
+22.50
+Educated: A Memoir
+17.99
+Becoming
+18.99
+The Immortal Life of Henrietta Lacks
+16.40
+@@@
+Romance
+Pride and Prejudice
+9.99
+The Notebook
+11.49
+Me Before You
+12.75
+Outlander
+14.95
+@@@
+Horror
+Dracula
+11.25
+It
+19.99
+The Haunting of Hill House
+13.60
+The Shining
+16.80
+@@@
+Historical Fiction
+The Nightingale
+13.99
+All the Light We Cannot See
+14.89
+The Book Thief
+12.45
+The Help
+10.99
+@@@
+Self-Help
+Atomic Habits
+20.00
+The Power of Habit
+18.50
+How to Win Friends and Influence People
+15.25
+The 7 Habits of Highly Effective People
+19.30
+@@@

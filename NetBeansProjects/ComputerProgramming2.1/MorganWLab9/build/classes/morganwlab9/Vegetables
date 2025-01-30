@@ -1,0 +1,17 @@
+public class Vegetables {
+    private String veggieType;
+    
+    public Vegetables(){
+        this.veggieType = "";
+    }
+    
+    public void setType(String veggieType){
+        this.veggieType = veggieType;
+    }
+
+    public String getType() {
+        return veggieType;
+    }
+ 
+}
+

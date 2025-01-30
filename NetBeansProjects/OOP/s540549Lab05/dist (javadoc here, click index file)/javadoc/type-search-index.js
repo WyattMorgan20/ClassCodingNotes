@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edu.nwmissouri.fall24.cs44542.sec02.arrayAndArrayLists","l":"ArrayDriver"},{"p":"edu.nwmissouri.fall24.cs44542.sec02.arrayAndArrayLists","l":"NorthwestBookDriver"}];updateSearchResults();

@@ -1,0 +1,4 @@
+Dog Rex 4 20.5
+Cat Whiskers 3 4.5
+Bird Tweety 2 0.3
+Fish Nemo 1 0.1
