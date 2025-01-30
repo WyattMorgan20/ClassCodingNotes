@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeadAnimalFragment">
+
+    <Button
+        android:id="@+id/racBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Racoon"
+        android:translationX="20dp"
+        android:translationY="20dp" />
+
+    <Button
+        android:id="@+id/opBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opossum"
+        android:translationX="155dp"
+        android:translationY="20dp" />
+
+    <Button
+        android:id="@+id/otherBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:translationX="300dp"
+        android:translationY="20dp" />
+
+    <TextView
+        android:id="@+id/otherTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:translationX="330dp"
+        android:translationY="80dp" />
+
+    <TextView
+        android:id="@+id/racoonTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Racoons"
+        android:translationX="35dp"
+        android:translationY="80dp" />
+
+    <TextView
+        android:id="@+id/opossumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opossums"
+        android:translationX="175dp"
+        android:translationY="80dp" />
+</FrameLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "154104706524",
+    "project_id": "morganwprogram9",
+    "storage_bucket": "morganwprogram9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154104706524:android:8a355bc464584397748b19",
+        "android_client_info": {
+          "package_name": "com.example.morganwprogram9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ6Ajrw1RCC7GZuvsDnH2O4WzbQ4PuDd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

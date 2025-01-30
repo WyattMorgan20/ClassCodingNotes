@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <Button
+        android:id="@+id/changeMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Max" />
+
+    <EditText
+        android:id="@+id/changeMaxET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter New Max"
+        android:inputType="text"
+        android:translationX="150dp" />
+
+    <Button
+        android:id="@+id/changeMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Min"
+        android:translationY="100dp" />
+
+    <EditText
+        android:id="@+id/changeMinET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter New Min"
+        android:inputType="text"
+        android:translationX="150dp"
+        android:translationY="100dp" />
+</FrameLayout>
