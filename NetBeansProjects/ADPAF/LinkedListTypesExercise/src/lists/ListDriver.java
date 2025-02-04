@@ -50,7 +50,7 @@ public class ListDriver {
         System.out.println("LL to Array:");
         for(int i = 0; i < list5.size(); i++){
             arr3[i] = list5.get(i);
-            System.out.println(arr3[i]);
+            System.out.print(arr3[i] + " ");
         }
     }
 }
