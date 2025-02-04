@@ -15,7 +15,7 @@ public class LinkedListTypesExercise {
      */
     public static void main(String[] args) {
         Node head = new Node("Wyatt");
-        Node second = new Node("Joseph");
+        Node second = new Node("Cooper");
         Node third = new Node("Morgan");
         
         head.next = second;

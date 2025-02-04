@@ -21,7 +21,7 @@ public class ListDriver {
         
         // Array -> Linked List:
         // Pre-defined method Arrays.asList
-        String[] arr1 = {"Wyatt", "Joseph", "Morgan", "Max", "Dejesus"};
+        String[] arr1 = {"Wyatt", "Nix", "Morgan", "Max", "Dejesus"};
         List<String> list3 = new LinkedList<>(Arrays.asList(arr1));
         System.out.println(list3);
         
@@ -41,7 +41,7 @@ public class ListDriver {
         // Created from scratch
         List<String> list5 = new LinkedList<>();
         list5.add("Wyatt");
-        list5.add("Joseph");
+        list5.add("Nix");
         list5.add("Morgan");
         list5.add("Max");
         
