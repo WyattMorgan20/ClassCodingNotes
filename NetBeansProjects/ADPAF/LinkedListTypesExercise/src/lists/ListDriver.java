@@ -36,7 +36,7 @@ public class ListDriver {
         
         // Linked List -> Array:
         // Pre-defined method linked list to an array
-        Object[] arr2 = list4.toArray();
+        String[] arr2 = list4.toArray(new String[0]);
         
         // Created from scratch
         List<String> list5 = new LinkedList<>();
