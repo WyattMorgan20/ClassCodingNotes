@@ -17,7 +17,7 @@ public class Node {
         this.next = next;
     }
     
-    //public Node(){
-        //
-    //}
+    public Node(String data){
+        this.data = data;
+    }
 }
