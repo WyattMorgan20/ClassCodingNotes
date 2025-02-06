@@ -24,14 +24,37 @@ public class SingleLinkedList {
         
         head.next = second;
         second.next = third;
+        third.next = fourth;
         fourth.next = fifth;
         
-        converter(Node);
+        converter(head);
+        
+        Node first = head;
+        while(first != null){
+            System.out.println(first.data + " ");
+            
+            if(first.data == "Lisp"){
+                System.out.println(first.next.data);
+                break;
+            }
+            
+            first = first.next;
+            
+        }
     }
     
     // 5
-    public static LinkedList converter(LinkedList Node){
-        fifth.next = head;
-        return ;
+    public static Node converter(Node head){
+        Node current = head;
+        
+        while(current != null){
+            current = current.next;
+            if(current.next == null){
+                current.next = head;
+                break;
+            }
+        }
+        
+        return current;
     }
 }

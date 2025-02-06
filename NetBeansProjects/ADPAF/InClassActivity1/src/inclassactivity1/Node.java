@@ -11,7 +11,7 @@ package inclassactivity1;
 // 1
 public class Node {
     
-    private String data;
+    String data;
     Node next;
     
     // 2
