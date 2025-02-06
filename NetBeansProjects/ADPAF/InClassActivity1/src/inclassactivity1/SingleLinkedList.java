@@ -27,8 +27,10 @@ public class SingleLinkedList {
         third.next = fourth;
         fourth.next = fifth;
         
+        // 5
         converter(head);
         
+        // 6
         Node first = head;
         while(first != null){
             System.out.println(first.data + " ");
