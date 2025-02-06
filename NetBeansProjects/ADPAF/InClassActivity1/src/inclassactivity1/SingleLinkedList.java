@@ -27,20 +27,29 @@ public class SingleLinkedList {
         third.next = fourth;
         fourth.next = fifth;
         
+        Node first1 = head;
+        System.out.println("Initial Linked List:");
+        while(first1 != null){
+            System.out.println(first1.data + " ");
+            first1 = first1.next;
+            
+        }
+        
         // 5
         converter(head);
         
         // 6
-        Node first = head;
-        while(first != null){
-            System.out.println(first.data + " ");
+        Node first2 = head;
+        System.out.println("\nCircular Linked List:");
+        while(first2 != null){
+            System.out.println(first2.data + " ");
             
-            if(first.data == "Lisp"){
-                System.out.println(first.next.data);
+            if(first2.data == "Lisp"){
+                System.out.println(first2.next.data);
                 break;
             }
             
-            first = first.next;
+            first2 = first2.next;
             
         }
     }
