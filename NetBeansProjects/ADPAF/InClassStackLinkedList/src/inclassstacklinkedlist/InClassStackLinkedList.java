@@ -24,6 +24,11 @@ public class InClassStackLinkedList {
         push(54);
         
         System.out.println("Top value: " + top.val);
+        System.out.println("Head value: " + head.val);
+        
+        stackPrint();
+        
+        pop();
         
         stackPrint();
     }
@@ -59,6 +64,9 @@ public class InClassStackLinkedList {
         while(curr.next != null){
             curr = curr.next;
         }
+        
+        System.out.println("Pop value " + curr.val);
+        curr = null;
     }
     
 }
