@@ -4,6 +4,8 @@
  */
 package inclassstacklinkedlist;
 
+import java.awt.HeadlessException;
+
 /**
  *
  * @author s540549
@@ -20,7 +22,10 @@ public class InClassStackLinkedList {
         push(23);
         push(32);
         push(54);
-        stackPrint(head);
+        
+        System.out.println("Top value: " + top.val);
+        
+        stackPrint();
     }
     
     public static void push(int data){
@@ -28,6 +33,7 @@ public class InClassStackLinkedList {
         
         // if top is null we will assign the value to top
         if(top == null){
+            head = node;
             top = node;
         }
         else{
@@ -39,10 +45,19 @@ public class InClassStackLinkedList {
         
     }
     
-    public static void stackPrint(Node curr){
+    public static void stackPrint(){
+        Node curr = head;
         System.out.println("Elements in the stack:");
         while(curr != null){
             System.out.print(curr.val + " ");
+            curr = curr.next;
+        }
+    }
+    
+    public static void pop(){
+        Node curr = head;
+        while(curr.next != null){
+            curr = curr.next;
         }
     }
     
