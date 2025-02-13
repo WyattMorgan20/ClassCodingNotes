@@ -14,6 +14,7 @@ public class InClassStackLinkedList {
 
     public static Node top = null;
     public static Node head = top;
+    public static int size = 0;
     
     /**
      * @param args the command line arguments
@@ -25,12 +26,15 @@ public class InClassStackLinkedList {
         
         System.out.println("Top value: " + top.val);
         System.out.println("Head value: " + head.val);
-        
         stackPrint();
         
         pop();
-        
+        System.out.println("\nUpdated LinkedList");
         stackPrint();
+        
+        int last = peek();
+        System.out.println("\nPeek value in stack " + last);
+        System.out.println("Size of LinkedList: " + size);
     }
     
     public static void push(int data){
@@ -40,11 +44,13 @@ public class InClassStackLinkedList {
         if(top == null){
             head = node;
             top = node;
+            size++;
         }
         else{
             // if top is not empty we will link the new node to top
             top.next = node;
             top = node;
+            size++;
         }
         
         
@@ -52,7 +58,7 @@ public class InClassStackLinkedList {
     
     public static void stackPrint(){
         Node curr = head;
-        System.out.println("Elements in the stack:");
+        System.out.println("\nElements in the stack:");
         while(curr != null){
             System.out.print(curr.val + " ");
             curr = curr.next;
@@ -61,12 +67,29 @@ public class InClassStackLinkedList {
     
     public static void pop(){
         Node curr = head;
+        Node prev = null;
+        while(curr.next != null){
+            prev = curr;
+            curr = curr.next;
+        }
+        
+        System.out.println("\nPop value " + curr.val);
+        System.out.println("Prev value " + prev.val);
+        prev.next = null;
+        size--;
+    }
+    
+    public static int peek(){
+        Node curr = head;
         while(curr.next != null){
             curr = curr.next;
         }
         
-        System.out.println("Pop value " + curr.val);
-        curr = null;
+        return curr.val;
+    }
+    
+    public static void isEmpty(){
+        // no se
     }
     
 }
