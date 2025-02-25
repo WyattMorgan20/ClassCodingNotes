@@ -5,6 +5,7 @@
 package inclassqueues;
 
 import java.util.ArrayDeque;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -20,7 +21,7 @@ public class InClassQueues {
     public static void main(String[] args) {
         Queue<Integer> qL = new LinkedList<>();
         Queue<Integer> qA = new ArrayDeque<>();
-        Queue<String> qP = new PriorityQueue<>();
+        Queue<String> qP = new PriorityQueue<>(Comparator.reverseOrder());
         
         // LinkedList Queue
         System.out.println("LinkedList Queue:");
@@ -81,7 +82,25 @@ public class InClassQueues {
         qP.add("three");
         qP.add("two");
         qP.add("four");
-        System.out.println(qP);
+        System.out.println("Priority Queue " + qP);
+        qP.remove();
+        System.out.println("Removing element from queue: " + qP);
+        System.out.println("Using element method " + qP.element());
+        qP.remove();
+        System.out.println("Priority Queue after removing an element " + qP);
+        qP.remove();
+        System.out.println("Priority Queue after removing an element " + qP);
+        qP.remove();
+        System.out.println("Priority Queue after removing an element " + qP);
+        
+        PriorityQueue<String> pq = new PriorityQueue<>();
+        pq.add("Wyatt");
+        pq.add("Morgan");
+        pq.add("Max");
+        pq.add("Drew");
+        System.out.println(pq);
+        
+        // Try to complete user defined priority queue where we can assign priority manually
     }
     
 }
