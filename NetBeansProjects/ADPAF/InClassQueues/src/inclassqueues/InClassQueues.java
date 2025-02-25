@@ -22,6 +22,7 @@ public class InClassQueues {
         Queue<Integer> qA = new ArrayDeque<>();
         Queue<Integer> qP = new PriorityQueue<>();
         
+        // LinkedList Queue
         System.out.println("Is the LinkedList Queue empty: " + qL.isEmpty());
         System.out.println("Getting element from the LinkedList Queue: " + qL.peek());
         
@@ -29,6 +30,26 @@ public class InClassQueues {
         qL.add(23);
         qL.add(34);
         System.out.println("LinkedList Queue " + qL);
+        qL.remove();
+        System.out.println("LinkedList Queue " + qL);
+        System.out.println("Removing element from the queue " + qL.remove());
+        qL.poll();
+        System.out.println("Removing element using poll " + qL);
+        
+        qL.offer(45);
+        qL.offer(32);
+        qL.offer(11);
+        System.out.println("Elements in the queue " + qL);
+        System.out.println("Element method in queue " + qL.element());
+        System.out.println("Peek in the queue " + qL.peek());
+        
+        // ArrayDeque Queue
+        qA.add(12);
+        qA.offer(23);
+        qA.add(32);
+        qA.offer(89);
+        System.out.println("queue using arrayDeque " + qA);
+        
     }
     
 }
