@@ -20,7 +20,10 @@ public class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person o) {
-        return Integer.compare(o.priority, this.priority);
+        return Integer.compare(o.priority, this.priority); 
+        // swap this. and o. to change order of priority
+        // o. first = counting down
+        // this. first = counting up
     }
     
     public String toString(){
