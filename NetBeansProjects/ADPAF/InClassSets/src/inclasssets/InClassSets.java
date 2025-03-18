@@ -20,7 +20,7 @@ public class InClassSets {
 	Set<String> linkedSet = new LinkedHashSet<>();
 	Set<String> treeSet = new TreeSet<>();
 		
-	List<String> colors = Arrays.asList("red","orange","yellow","green","blue","indigo","violet");
+	List<String> colors = Arrays.asList("red", "orange", "yellow", "green", "blue", "indigo", "violet");
 	hashSet.addAll(colors);
 	linkedSet.addAll(colors);
 	treeSet.addAll(colors);
