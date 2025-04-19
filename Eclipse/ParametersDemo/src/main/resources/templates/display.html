@@ -7,6 +7,13 @@
 <body>
 We are displaying dogs!
 
-<p th:text = "Hello+' '+${session.dogNameDisplay}"></p>
+<!-- HttpServlet and HttpSessions as parameters. -->
+<!-- <p th:text = "Hello+' '+${session.dogNameDisplay}"></p> -->
+
+<!-- With MV with string as a parameter -->
+<!-- <p th:text = "Hello+' ---- '+${dogNameDisplay}"></p> -->
+
+<!-- With MV and Dog as a parameter -->
+<p th:text = "Hello+' ---- '+${dogNameDisplay}"></p>
 </body>
 </html>

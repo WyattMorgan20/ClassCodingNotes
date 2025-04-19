@@ -3,6 +3,9 @@ package com.nwmsu.ParametersDemo.Controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.nwmsu.ParametersDemo.Models.Dog;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
@@ -24,6 +27,19 @@ public class DogController {
 //		return "display.html";
 //	}
 	
+//	@RequestMapping("display")
+//	public ModelAndView display(String dogName) {
+//		ModelAndView mv = new ModelAndView();
+//		mv.setViewName("display.html");
+//		mv.addObject("dogNameDisplay", dogName);
+//		return mv;
+//	}
 	
+	@RequestMapping("display")
+	public ModelAndView display(Dog d) {
+		ModelAndView mv = new ModelAndView("display.html");
+		mv.addObject("dogNameDisplay", d);
+		return mv;
+	}
 	
 }
