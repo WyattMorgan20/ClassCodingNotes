@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Add Dog</title>
 </head>
 <body>
+<div class="container">
+		<h2>Add New Dog</h2>
+		<form th:action="addNewDog">
+			<input type="text" name="id" placeholder="Enter id"><br>
+			<br> <input type="text" name="name" placeholder="Enter name"><br>
+			
+			<br> <input type="text" name="breed" placeholder="Enter breed"><br>
+			
+			<br><button type="submit">Add New Dog</button>
+		</form>
+</div>
 
 </body>
 </html>
