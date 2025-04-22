@@ -12,7 +12,10 @@
 			<br> <input type="text" name="name" placeholder="Enter name"><br>
 			
 			<br> <input type="text" name="breed" placeholder="Enter breed"><br>
-			
+			<br> <br> <select name="trainerId" id="dropOperator">
+				<option value="0"> Select Trainer </option>
+				<option th:each="trainer : ${trainers}" th:value="${trainer.trainerId}"></option>
+			</select> <br> <br>
 			<br><button type="submit">Add New Dog</button>
 		</form>
 </div>

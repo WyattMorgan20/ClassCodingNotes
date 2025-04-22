@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Trainer Adding</title>
+</head>
+<body>
+<div class="container">
+		<h2>Add New Trainer</h2>
+		<form th:action="trainerAdded">
+			<input type="text" name="trainerId" placeholder="Enter Trainer id"><br>
+			<br> <input type="text" name="trainerName" placeholder="Enter name"><br>
+			
+			<br> <input type="text" name="trainerAddress" placeholder="Enter address"><br>
+			
+			<br><button type="submit">Add New Trainer</button>
+		</form>
+</div>
+</body>
+</html>
